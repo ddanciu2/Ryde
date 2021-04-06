@@ -34,7 +34,7 @@ body{
   }
   
   /* Position the content inside the overlay */
-  .overlay-content {
+  .menu-items {
     position: relative;
     top: 5%; /* 25% from the top */
     width: 100%; /* 100% width */
