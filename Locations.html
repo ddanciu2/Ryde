@@ -14,25 +14,23 @@
 </head>
 <body>
     
-    <div id="myNav" class="overlay">
-          
-        <!-- Close Menu -->
-        <a class="closeHM" onclick="closeMenu()">&#9776</a>
-      
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <a href="index.html">Home</a>
-          <a href="MyKids.html">My Kids</a>
-          <a href="Locations.html">Locations</a>
-          <a href="MyDrivers.html">My Drivers</a>
-          <a href="MyPassengers.html">My Passengers</a>
-          <a href="MyAccountSettings.html">Account Settings</a>
-        </div>
-      
-      </div>
-      
-      <!-- Open Menu -->
-      <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
+  <div id="HMLayout" class="HM">
+    <!-- Close Menu -->
+    <a class="closeHM" onclick="closeMenu()">&#9776</a>
+
+    <!-- Overlay content -->
+    <div class="menu-items">
+      <a href="index.html" onclick="closeMenu()">Home</a>
+      <a href="MyKids.html">My Kids</a>
+      <a href="Locations.html">Locations</a>
+      <a href="MyDrivers.html">My Drivers</a>
+      <a href="MyPassengers.html">My Passengers</a>
+      <a href="MyAccountSettings.html">Account Settings</a>
+    </div>
+  </div>
+
+  <!-- Open Menu -->
+  <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
 
       <p>Locations</p>
     
