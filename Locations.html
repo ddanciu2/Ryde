@@ -11,10 +11,47 @@
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="RydeIndex.js"></script>
+
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 50%;
+        /* The width is the width of the web page */
+      }
+    </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        const uluru = { lat: 41.872105, lng: -87.648053 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 16,
+          center: uluru
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+
+
 </head>
 <body>
     
-  <div id="HMLayout" class="HM">
+  <h3>Locations</h3>
+    <!--The div element for the map -->
+    <div id="map" style="margin-left: auto; margin-right: auto;">>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx5GUJrKSqZruj1SvJeMhq_8I7LXKy7SQ&callback=initMap">
+    </script>
+
+  </div>
+  <div id="HMLayout" class="HM" style="align-content: left;">
     <!-- Close Menu -->
     <a class="closeHM" onclick="closeMenu()">&#9776</a>
 
@@ -31,8 +68,5 @@
 
   <!-- Open Menu -->
   <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
-
-      <p>Locations</p>
-    
 </body>
 </html>
