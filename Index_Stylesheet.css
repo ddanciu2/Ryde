@@ -66,3 +66,127 @@ body{
   }
   
   
+  * {box-sizing: border-box;}
+  ul {list-style-type: none;}
+  body {font-family: Verdana, sans-serif;}
+  
+  .month {
+    margin-top: 4%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 0%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    /* width: 80%; */
+    background: #03960f;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin-top: 0%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: silver;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    text-align: center;
+  }
+  
+  .days {
+    margin-top: -16px;
+    margin-left: 7%;
+    margin-right: 7%;
+    /* padding-top: 3%;
+    padding-bottom: 10%; */
+    background: white;
+  }
+  
+
+.days li {
+    color: black;
+}  
+
+.days .Week1 li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    font-size:25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}  
+
+.days .Week2 li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    font-size:25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}  
+
+.days .Week3 li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    font-size:25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}  
+.days .Week4 li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    font-size:25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.days .Week5 li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+  
+  .days  .CurrentDay  {
+    padding: 3px 6px 3px 6px;
+    background: #03960f;
+    color: white;
+  }
+  
