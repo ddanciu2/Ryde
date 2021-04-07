@@ -65,7 +65,8 @@ body{
     font-size: 60px;
   }
   
-  
+  /* CALENDER STYLING BELOW */
+
   * {box-sizing: border-box;}
   ul {list-style-type: none;}
   body {font-family: Verdana, sans-serif;}
@@ -108,8 +109,8 @@ body{
     margin-top: 0%;
     margin-left: 7%;
     margin-right: 7%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: silver;
   }
   
@@ -135,13 +136,15 @@ body{
 }  
 
 .days .Week1 li {
+    /* position: relative;
+    left: 5%; */
     list-style-type: none;
     display: inline-block;
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }  
 
 .days .Week2 li {
@@ -150,8 +153,8 @@ body{
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }  
 
 .days .Week3 li {
@@ -160,8 +163,8 @@ body{
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }  
 .days .Week4 li {
     list-style-type: none;
@@ -169,8 +172,8 @@ body{
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 .days .Week5 li {
@@ -180,13 +183,68 @@ body{
     text-align: center;
     margin-bottom: 5px;
     font-size:25px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
   
-  .days  .CurrentDay  {
+.days.CurrentDay{
     padding: 3px 6px 3px 6px;
     background: #03960f;
     color: white;
-  }
-  
+}
+
+.BtnDay{
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+    border-radius: 5px;
+    padding: 15px 65px 15px 65px;
+    margin: 1% 1% 0% 0%;
+
+    /* text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+   -1px -1px 0 #000; */
+}
+
+.BtnDay:hover{
+    border-color: black;
+    color: white;
+    background-color: black;
+}
+
+.BtnWeek{
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+    border-radius: 5px;
+    padding: 15px 65px 15px 65px;
+    margin: 1% 1% 0% 0%;
+}
+
+.BtnWeek:hover{
+    border-color: black;
+    color: white;
+    background-color: black;
+}
+
+.BtnMonth{
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+    border-radius: 5px;
+    padding: 15px 65px 15px 65px;
+    margin: 1% 1% 0% 0%;
+}
+
+.BtnMonth:hover{
+    border-color: black;
+    color: white;
+    background-color: black;
+}
