@@ -66,45 +66,63 @@ body{
   }
   
   /* CALENDER STYLING BELOW */
+.MonthDisplay{
+    display: none;
+}
+
+.WeekDisplay{
+    display: block;
+}
+
+
+.DayDisplay{
+    display: none;
+}
+
 
   * {box-sizing: border-box;}
   ul {list-style-type: none;}
   body {font-family: Verdana, sans-serif;}
   
-  .month {
-    margin-top: 4%;
+  .CalenderMonthDisplay {
+    margin-top: 1%;
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom: 0%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 3.5%;
     /* width: 80%; */
     background: #03960f;
     text-align: center;
   }
   
-  .month ul {
+  .CalenderMonthDisplay ul {
     margin: 0;
     padding: 0;
   }
   
-  .month ul li {
+  .CalenderMonthDisplay ul li {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
   }
   
-  .month .prev {
+  .CalenderMonthDisplay .prevMonth {
     float: left;
     padding-top: 10px;
   }
   
-  .month .next {
+  .CalenderMonthDisplay .nextMonth {
     float: right;
     padding-top: 10px;
   }
   
+.CalenderMonthDisplay .CurrentMonth{
+    position: absolute;
+    left:49%;
+}
+
   .weekdays {
     margin-top: 0%;
     margin-left: 7%;
@@ -127,6 +145,8 @@ body{
     margin-right: 7%;
     /* padding-top: 3%;
     padding-bottom: 10%; */
+    padding-top: 1%;
+    padding-bottom: 1%;
     background: white;
   }
   
@@ -136,15 +156,19 @@ body{
 }  
 
 .days .Week1 li {
-    /* position: relative;
-    left: 5%; */
+    position: relative;
     list-style-type: none;
     display: inline-block;
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    /* margin-top: 1.5%;
+    margin-bottom: 1.5%; */
+
+    border-style: solid;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left:-6px;
 }  
 
 .days .Week2 li {
@@ -153,8 +177,13 @@ body{
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    /* margin-top: 1.5%;
+    margin-bottom: 1.5%; */
+
+    border-style: solid;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left:-6px;
 }  
 
 .days .Week3 li {
@@ -163,8 +192,12 @@ body{
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    /* margin-top: 1.5%;
+    margin-bottom: 1.5%; */
+    border-style: solid;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left:-6px;
 }  
 .days .Week4 li {
     list-style-type: none;
@@ -172,8 +205,12 @@ body{
     width: 13.6%;
     text-align: center;
     font-size:25px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    /* margin-top: 1.5%;
+    margin-bottom: 1.5%; */
+    border-style: solid;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left:-6px;
 }
 
 .days .Week5 li {
@@ -183,17 +220,155 @@ body{
     text-align: center;
     margin-bottom: 5px;
     font-size:25px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    /* margin-top: 1.5%;
+    margin-bottom: 1.5%; */
+    border-style: solid;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left:-6px;
 }
   
-.days.CurrentDay{
+.days .CurrentDay{
     padding: 3px 6px 3px 6px;
     background: #03960f;
     color: white;
 }
 
+/* WEEKLY CSS BELOW */
+
+.CalenderWeekDisplay {
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 0%;
+    padding-top: 1.5%;
+    padding-bottom: 3.5%;
+    /* width: 80%; */
+    background: #03960f;
+    text-align: center;
+  }
+  
+  .CalenderMonthDisplay ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .CalenderMonthDisplay ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .CalenderMonthDisplay .prevMonth {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .CalenderMonthDisplay .nextMonth {
+    float: right;
+    padding-top: 10px;
+  }
+  
+.CalenderMonthDisplay .CurrentMonth{
+    position: absolute;
+    left:49%;
+}
+
+.WeekDates {
+margin-top: 0%;
+margin-left: 7%;
+margin-right: 7%;
+padding-top: 1%;
+padding-bottom: 1%;
+background-color: silver;
+}
+
+.WeekDates li {
+display: inline-block;
+width: 13.6%;
+color: black;
+text-align: center;
+}
+
+.WeekDates .CurrentDay {
+    padding: 3px 6px 3px 6px;
+    background: #03960f;
+    color: white;
+}
+
+
+    
+
+ .SingleWeekDays {
+margin-top: -16px;
+margin-left: 7%;
+margin-right: 7%;
+padding-top: 3%;
+padding-bottom: 10%; 
+padding-top: 1%;
+padding-bottom: 1%;
+background: white;
+} 
+
+.SingleWeekDays li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    font-size:25px; 
+    margin-top: 1.5%;
+    margin-bottom: 1.5%; 
+    border:solid;
+    padding-top: 95px;
+    padding-bottom: 25%;
+ }   
+
+
+  
+.SingleWeekDays .CurrentDay{
+    padding: 3px 6px 3px 6px;
+    background: #03960f;
+    color: white;
+}
+
+
+
+/* DAILY CSS BELOW */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .BtnDay{
+    position: absolute;
+    left:33%;
+    bottom: 3%;
+
+
     border-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -216,6 +391,11 @@ body{
 }
 
 .BtnWeek{
+    position: absolute;
+    left:45%;
+    bottom: 3%;
+
+
     border-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -233,6 +413,10 @@ body{
 }
 
 .BtnMonth{
+    position: absolute;
+    right:29%;
+    bottom: 3%;
+
     border-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);

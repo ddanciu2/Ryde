@@ -35,85 +35,190 @@
         <!-- Open Menu -->
         <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
 
-        
-        <div class="month"> 
-          <ul>
-            <li class="prev"> < March </li>
-            <li class="next">May ></li>
-            <li>
-              April<br>2021
-            </li>
+
+        <div class="DayDisplay" id="DayOverlay">
+          <div class="CalenderMonthDisplay"> 
+            <ul>
+              <li class="prevMonth"> < March </li>
+              <li class="nextMonth">May ></li>
+              <li class="CurrentMonth">April<br>2021</li>
+            </ul>
+          </div>
+          
+          <ul class="weekdays">
+            <li>Su</li>
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+          </ul>
+          
+          <ul class="days"> 
+            <div class="Week1">
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </div> 
+            
+            <div class="Week2">
+              <li><span class="CurrentDay">4</span></li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+              <li>10</li>
+            </div>
+
+            <div class="Week3">
+              <li>11</li>
+              <li>12</li>
+              <li>13</li>
+              <li>14</li>
+              <li>15</li>
+              <li>16</li>
+              <li>17</li>
+            </div>
+
+            <div class="Week4">
+              <li>18</li>
+              <li>19</li>
+              <li>20</li>
+              <li>21</li>
+              <li>22</li>
+              <li>23</li>
+              <li>24</li>
+            </div>
+
+            <div class="Week5">
+              <li>25</li>
+              <li>26</li>
+              <li>27</li>
+              <li>28</li>
+              <li>29</li>
+              <li>30</li>
+              <li>&nbsp;</li>
+            </div>
           </ul>
         </div>
-        
-        <ul class="weekdays">
-          <li>Su</li>
-          <li>Mo</li>
-          <li>Tu</li>
-          <li>We</li>
-          <li>Th</li>
-          <li>Fr</li>
-          <li>Sa</li>
-        </ul>
-        
-        <ul class="days"> 
-          <div class="Week1">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </div> 
+
+        <!-- WEEK DISPLAY BELOW -->
+        <div class="WeekDisplay" id="WeekOverlay">
+          <div class="CalenderMonthDisplay"> 
+            <ul>
+              <li class="prevMonth"> < 3/28-4/3 </li>
+              <li class="nextMonth">4/15-4/21 ></li>
+              <li class="CurrentMonth">April<br>2021</li>
+            </ul>
+          </div>
           
-          <div class="Week2">
-            <li><span class="CurrentDay">4</span></li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-          </div> 
+          <ul class="WeekDates">
+            <li><span class="CurrentDay">4/4</span></li>
+            <li>4/5</li>
+            <li>4/6</li>
+            <li>4/7</li>
+            <li>4/8</li>
+            <li>4/9</li>
+            <li>4/10</li>
+          </ul>
+          
+          <ul class="SingleWeekDays"> 
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
 
+          </ul>
 
-          <div class="Week3">
-            <li>15</li>
-            <li>16</li>
-            <li>17</li>
-            <li>18</li>
-            <li>19</li>
-            <li>20</li>
-            <li>21</li>
-          </div> 
+        </div>
 
-          <div class="Week4">
-            <li>22</li>
-            <li>23</li>
-            <li>24</li>
-            <li>25</li>
-            <li>26</li>
-            <li>27</li>
-            <li>28</li>
-          </div> 
+        <!-- MONTH DISPLAY BELOW -->
+        <div class="MonthDisplay" id="MonthOverlay">
 
-          <div class="Week5">
-            <li>29</li>
-            <li>30</li>
-            <li>31</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+          <div class="CalenderMonthDisplay"> 
+            <ul>
+              <li class="prevMonth"> < March </li>
+              <li class="nextMonth">May ></li>
+              <li class="CurrentMonth">April<br>2021</li>
+            </ul>
+          </div>
+          
+          <ul class="weekdays">
+            <li>Su</li>
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+          </ul>
+          
+          <ul class="days"> 
+            <div class="Week1">
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </div> 
+            
+            <div class="Week2">
+              <li><span class="CurrentDay">4</span></li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+              <li>10</li>
+            </div>
 
-          </div> 
-        </ul>
+            <div class="Week3">
+              <li>11</li>
+              <li>12</li>
+              <li>13</li>
+              <li>14</li>
+              <li>15</li>
+              <li>16</li>
+              <li>17</li>
+            </div>
 
+            <div class="Week4">
+              <li>18</li>
+              <li>19</li>
+              <li>20</li>
+              <li>21</li>
+              <li>22</li>
+              <li>23</li>
+              <li>24</li>
+            </div>
 
-        <button class="BtnDay"> Day</button>
-        <button class="BtnWeek"> Week</button>
-        <button class="BtnMonth"> Month</button>
+            <div class="Week5">
+              <li>25</li>
+              <li>26</li>
+              <li>27</li>
+              <li>28</li>
+              <li>29</li>
+              <li>30</li>
+              <li>&nbsp;</li>
+            </div>
+
+          </ul>
+      </div>
+
+        <button class="BtnDay"  onclick="changeToDay()"> Day</button>
+        <button class="BtnWeek"  onclick="changeToWeek()"> Week</button>
+        <button class="BtnMonth"  onclick="changeToMonth()"> Month</button>
     </body>
 
 
