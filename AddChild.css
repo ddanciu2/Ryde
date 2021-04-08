@@ -4,13 +4,15 @@ body{
 }
 
 h1{
+    margin-top:0%;
+    font-size: 70px;
     text-align: center;
 }
 
-h2{
-    position: relative;
-    top: 60px;
-    font-size: 30px;
+.outputIMG{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
 }
 
 .forms {

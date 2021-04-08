@@ -4,14 +4,12 @@ body{
 }
 
 h1{
-    text-align: center;
+  margin-top:0%;
+  margin-bottom: 5%;
+  font-size: 70px;
+  text-align: center;
 }
 
-h2{
-    position: relative;
-    top: 60px;
-    font-size: 30px;
-}
 
 #hamburgerMenu{
   color: white;
@@ -100,23 +98,17 @@ h2{
   font-size: 25px;
 }
 
-.PickUpDays{
-  display: inline-block;
-  margin: 0% 1% 0% 1%;
-
-
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
 
 .DriverOneBTNS{
   margin-top: 1%;
   margin-left:1%;
 }
 
+
 .ContactBTN{
   padding: 0.5% 1% 0.5% 1%;
-
+  margin:0.5%;
+  background-color: white;
 
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
@@ -124,7 +116,18 @@ h2{
 
 .RemoveBTN{
   padding: 0.5% 1% 0.5% 1%;
-  
+  margin:0.5%;
+
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.PickUpDays{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+  margin:0.5%;
+
 
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
