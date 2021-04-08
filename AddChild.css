@@ -24,6 +24,14 @@ h2{
   font-weight: bold;
 }
 
+.forms input{
+    margin-top:10%;
+}
+
+.forms .EmergencyText{
+    margin-top:35%;
+}
+
 #topForm {
     font-size: 20px;
     font-weight: normal;
