@@ -7,11 +7,11 @@
     <title>Ryde - Locations</title>
 
     <!-- CSS style sheets -->
-    <link href="Index_Stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="MyAccountSettings_Stylesheet.css" type="text/css" rel="stylesheet">
 
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="RydeIndex.js"></script>
+    <script type="text/javascript" src="RydeMyAccountSettings.js"></script>
 </head>
 <body>
     
@@ -33,7 +33,32 @@
       <!-- Open Menu -->
       <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
       
-      <p>My Account Settings</p>
+      <h1>My Account Settings</h1>
+
+      <img src="202-2029263_circle.png" height="80" width="80" alt="Profile Pic">
+
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" value="John Smith"><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" value="123 Orange Street"><br>
+        <label for="vehicle">Vehicle:</label>
+        <input type="text" id="vehicle" name="vehicle" value="Honda Civic"><br>
+        <label for="pnumber">Phone Number:</label>
+        <input type="text" id="pnumber" name="pnumber" value="123-456-7890"><br>
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email" value="johnsmith@gmail.com"><br>
+        <label for="distance">Passenger Search Distance:</label>
+        <select name="mi" id="mi">
+          <option value="5mi">5 mi.</option>
+          <option value="5mi">10 mi.</option>
+        </select><br>
+        <input type="submit" value="Save">
+      </form>
+
+      
+
+      
     
 </body>
 </html>
