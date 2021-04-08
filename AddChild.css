@@ -48,4 +48,26 @@ h2{
 #backButton:hover {
     color: silver;
 }
+
+.SubmitChild{
+    padding: 3% 5% 3% 5%;
+    color:black;
+    background-color: white;
+}
+
+
+.AddChild{
+    font-size:25px;
+    padding: 1.5%;
+    border-style: solid;
+    border-radius: 50px;
+  }
+  
+  .AddChild:hover{
+    color:white;
+    padding: 1.5%;
+  
+    border-style: solid;
+    border-radius: 50px;
+  }
   

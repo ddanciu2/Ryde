@@ -82,4 +82,51 @@ h2{
   left: 0.9%;
   font-size: 60px;
 }
+
+.DriverOne{
   
+}
+
+.ProfilePic{
+  display: inline-block;
+  margin: 0% 0% 0% 0%;
+
+
+}
+.ChildName{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 55px;
+
+}
+
+.ChildSchool{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+  
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+
+
+.AddChild{
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.AddChild:hover{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
+
+
