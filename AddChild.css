@@ -4,13 +4,9 @@ body{
 }
 
 h1{
+    margin-top:0%;
+    font-size: 70px;
     text-align: center;
-}
-
-h2{
-    position: relative;
-    top: 60px;
-    font-size: 30px;
 }
 
 .forms {
