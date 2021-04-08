@@ -4,13 +4,9 @@ body{
 }
 
 h1{
+    margin-top:0%;
+    font-size: 70px;
     text-align: center;
-}
-
-h2{
-    position: relative;
-    top: 60px;
-    font-size: 30px;
 }
 
 #backButton{
@@ -33,57 +29,61 @@ h2{
 }
 
 .addChild{
-    font-size: 25px;
+    font-size: 55px;
     padding: 0.25%;
+    
 }
 
 .child{
-    padding: 0.25%;
+    font-size: 20px;
+    padding: 0.3%;
 }
 
 .destination{
-    font-size: 25px;
+    font-size: 55px;
     padding: 0.25%;
 }
 
 .dest{
-    padding: 0.25%;
-}
+    font-size: 20px;
+    padding: 0.3%;}
 
 .pickupTime{
-    font-size: 25px;
+    font-size: 55px;
     padding: 0.25%;
 }
 
 .pickup{
-    padding: 0.1%;
+    font-size: 20px;
+    padding: 0.3%;
 }
 
 .AMPM{
-    padding: 0.1%;
+    font-size: 20px;
+    padding: 0.3%;
 }
 
 .dropoffTime{
-    font-size: 25px;
+    font-size: 55px;
     padding: 0.25%;
 }
 
 .dropoff{
-    padding: 0.1%;
-
+    font-size: 20px;
+    padding: 0.3%;
 }
 
 .AMPM2{
-    padding: 0.1%;
-
+    font-size: 20px;
+    padding: 0.3%;
 }
 
 .SelectDay{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .days{
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .addDriverLB{

@@ -4,7 +4,9 @@ body{
 }
 
 h1{
-    text-align: center;
+  margin-top:0%;
+  font-size: 70px;
+  text-align: center;
 }
 
 #hamburgerMenu{
