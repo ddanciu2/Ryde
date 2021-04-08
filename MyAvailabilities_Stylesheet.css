@@ -1,0 +1,75 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+
+h1{
+    margin-top:0%;
+    margin-bottom: 5%;
+    font-size: 70px;
+    text-align: center;
+}
+
+#backButton{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 1.7%;
+    left: 1.7%;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+
+.Availability1{
+    padding:1%;
+    border-bottom: solid;
+}
+
+.PickUpDays{
+    margin: 0% 1% 0% 1%;
+
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+  
+}
+
+.DriverName{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+
+}
+
+.RemoveBTN{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  background-color: white;
+}
+
+.Availabilities{
+    margin:3%;
+}
+
+.Availabilities label{
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.Availabilities:hover label{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
+
+

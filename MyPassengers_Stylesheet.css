@@ -3,8 +3,12 @@ body{
     text-align: center;
 }
 
+
 h1{
-    text-align: center;
+  margin-top:0%;
+  margin-bottom: 5%;
+  font-size: 70px;
+  text-align: center;
 }
 
 h2{
@@ -125,15 +129,33 @@ h2{
 .ContactBTN{
     padding: 0.5% 1% 0.5% 1%;
 
-
+    background-color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
 .RemoveBTN{
-    padding: 0.5% 1% 0.5% 1%;
-    
+  padding: 0.5% 1% 0.5% 1%;
+  
 
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.ViewAvailabilties{
+  margin-top:25%;
+}
+.ViewAvailabilties label{
+  font-size:25px;
+  padding: 0.75% 40% 0.75% 40%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.ViewAvailabilties:hover label{
+  color:white;
+  
+  padding: 0.75% 40% 0.75% 40%;
+  border-style: solid;
+  border-radius: 50px;
 }

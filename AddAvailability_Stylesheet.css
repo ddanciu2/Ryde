@@ -1,0 +1,87 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+}
+
+#backButton{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 1.7%;
+    left: 1.7%;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+/* When you mouse over the navigation links, change their color */
+#backButton:hover {
+    color: silver;
+}
+
+.DriverInfoInput{
+    padding:2%;
+}
+
+
+
+.AvailableFrom{
+    font-size: 55px;
+    padding: 0.25%;
+}
+
+.AvailFrom{
+    font-size: 20px;
+    padding: 0.3%;
+}
+
+.AMPM{
+    font-size: 20px;
+    padding: 0.3%;
+}
+
+.AvailableUntil{
+    font-size: 55px;
+    padding: 0.25%;
+}
+
+.AvailUntil{
+    font-size: 20px;
+    padding: 0.3%;
+}
+.AMPM2{
+    font-size: 20px;
+    padding: 0.3%;
+}
+
+.SelectDay{
+    font-size: 40px;
+}
+
+.days{
+    font-size: 25px;
+}
+
+.addDriverLB{
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.addDriverLB:hover{
+
+  color:white;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}

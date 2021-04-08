@@ -9,4 +9,7 @@ function openMenu() {
     document.getElementById("hamburgerMenu").style.zIndex = 1;
     document.getElementById("HMLayout").style.width = "0%";
   }
-
+  
+  function submitAvailability(){
+    window.location.href= "MyAvailabilities.html";
+  }
