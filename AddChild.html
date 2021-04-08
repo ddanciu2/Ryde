@@ -7,6 +7,7 @@
     <title>Ryde</title>
     <!-- CSS style sheets -->
     <link href="AddChild.css" type="text/css" rel="stylesheet">
+    
 
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -14,28 +15,50 @@
     
 </head>
 <body>
-    
-  <div id="HMLayout" class="HM">
-    <!-- Close Menu -->
-    <a class="closeHM" onclick="closeMenu()">&#9776</a>
+    <h1>Add Child</h1>
 
-    <!-- Overlay content -->
-    <div class="menu-items">
-      <a href="index.html" onclick="closeMenu()">Home</a>
-      <a href="MyKids.html">My Kids</a>
-      <a href="Locations.html">Locations</a>
-      <a href="MyDrivers.html">My Drivers</a>
-      <a href="MyPassengers.html">My Passengers</a>
-      <a href="MyAccountSettings.html">Account Settings</a>
+    <a href="MyKids.html" id="backButton">&#8592</a>
+
+    <div class="forms">
+        <label for="childForm">Child Info:</label>
+        <form id ="topForm">
+            <div class="form-group row">
+                <label for="nameLabel">Name:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            <div class="form-group row">
+                <label for="schoolLabel">School Address:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            <div class="form-group row">
+                <label for="addressLabel">Home Address:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            <div class="form-group row">
+                <label for="numberLabel">Phone Number:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            </form>
+        
+            <label for="emergencyForm">Emergency Contact Info:</label>
+            <form id ="emergencyForm">
+                <div class="form-group row">
+                    <label for="nameLabel">Name:</label>
+                    <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                </div>
+                <div class="form-group row">
+                    <label for="addressLabel">Home Address:</label>
+                    <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                </div>
+                <div class="form-group row">
+                    <label for="numberLabel">Phone Number:</label>
+                    <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                </div>
+                </form>
     </div>
-  </div>
+    
+
       
-      <!-- Open Menu -->
-      <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
-
-      <h1>My Kids</h1>
-
-      <h2>Add Child</h2>
 
       
 
