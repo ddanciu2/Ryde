@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryde - Locations</title>
+    <title>Ryde - My Passengers</title>
 
     <!-- CSS style sheets -->
-    <link href="Index_Stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="MyPassengers_Stylesheet.css" type="text/css" rel="stylesheet">
 
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="RydeIndex.js"></script>
+    <script type="text/javascript" src="RydeMyPassengers.js"></script>
 </head>
 <body>
     
@@ -33,7 +33,24 @@
       <!-- Open Menu -->
       <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
       
-      <p>My Passengers</p>
-    
+      <h1>My Passengers</h1>
+
+      <h2 id="ClickToAddPassenger" onclick="AddPassenger()">+ Add Passenger</h2>
+      <br><br><br><br>
+      <div class="DriverOne">
+        <img class="ProfilePic" src="defaultPFP.png" height="80" width="80" alt="Profile Pic" style="border-radius: 30px;">
+        <label class="DriverName"> David</label>
+
+        <label class="PickUpChild">Pick Up:Matt</label>
+
+      </div>
+      <div class="DriverOneBTNS">
+        <button class="ContactBTN">Contact</button>
+        <button class="RemoveBTN">Remove</button>
+        <label class="PickUpDays">Days:M-F 7AM</label>
+      </div>
+
+
+
 </body>
 </html>
