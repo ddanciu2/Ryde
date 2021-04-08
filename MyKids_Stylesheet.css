@@ -22,64 +22,64 @@ h2{
 }
 
 #hamburgerMenu{
-    color: white;
-    font-size: 45px;
-    position: absolute;
-    top: 1.7%;
-    left: 1.7%;
-    font-size: 60px;
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 1.7%;
+  left: 1.7%;
+  font-size: 60px;
 
 }
 
 /* When you mouse over the navigation links, change their color */
 #hamburgerMenu:hover {
-    color: silver;
+  color: silver;
 }
 
 /* The Overlay (background) */
 .HM {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-    height: 100%;
-    width: 0%;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0%;
-    top: 0%;
-    background-color: #1b2b36; /* Black fallback color */
-    /* background-color: rgba(0,0,0, 0.9);  */
-    overflow-x: hidden; 
-    /* transition: 0.5s; transition */
-  }
-  
-  /* Position the content inside the overlay */
-  .menu-items {
-    position: relative;
-    top: 5%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 2%; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  }
-  
-  /* overlay a tags */
-  .HM a {
-    padding: 0.8%;
-    text-decoration: none;
-    font-size: 80px;
-    color: white;
-    display: block; /* Display block instead of inline */
-    /* transition: 0.3s; Transition effects on hover (color) */
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .HM a:hover {
-    color: silver;
-  }
-  
-  /* Position the close button (top right corner) */
-  .HM .closeHM {
-    position: absolute;
-    top: 0.3%;
-    left: 0.9%;
-    font-size: 60px;
-  }
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0%;
+  top: 0%;
+  background-color: #1b2b36; /* Black fallback color */
+  /* background-color: rgba(0,0,0, 0.9);  */
+  overflow-x: hidden; 
+  transition: 0.5s; /*transition*/
+}
+
+/* Position the content inside the overlay */
+.menu-items {
+  position: relative;
+  top: 5%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 2%; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* overlay a tags */
+.HM a {
+  padding: 0.8%;
+  text-decoration: none;
+  font-size: 80px;
+  color: white;
+  display: block; /* Display block instead of inline */
+   transition: 0.3s; /*Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.HM a:hover {
+  color: silver;
+}
+
+/* Position the close button (top right corner) */
+.HM .closeHM {
+  position: absolute;
+  top: 0.3%;
+  left: 0.9%;
+  font-size: 60px;
+}
   
