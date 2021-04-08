@@ -7,20 +7,6 @@ h1{
     text-align: center;
 }
 
-h2{
-    position: relative;
-    top: 60px;
-    font-size: 30px;
-}
-
-#addSymbol{
-    position: relative;
-    right: 90px;
-    bottom: 15px;
-    color: black;
-    font-size: 50px;
-}
-
 #hamburgerMenu{
     color: white;
     font-size: 45px;
@@ -82,4 +68,5 @@ h2{
     left: 0.9%;
     font-size: 60px;
   }
+  
   
