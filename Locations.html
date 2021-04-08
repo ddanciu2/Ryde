@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryde - Locations</title>
     <!-- CSS style sheets -->
-    <link href="Index_Stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="Locations_Stylesheet.css" type="text/css" rel="stylesheet">
 
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -40,7 +40,7 @@
 
 <body>
     
-  <h3>Locations</h3>
+  <h3 class="locationText">Locations</h3>
     <!--The div element for the map -->
     <div id="map" style="margin-left: auto; margin-right: auto;">
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
@@ -49,7 +49,7 @@
     </script>
   </div>
   <div>
-    <input type="button" onclick="javascript:alert('Police have been notified');" value="Notify the Police" style="margin-left: auto; margin-right: auto;"> 
+    <input class="PoliceBTN" type="button" onclick="javascript:alert('Police have been notified');" value="Notify the Police" style="margin-left: auto; margin-right: auto;"> 
   </div>
   <div id="HMLayout" class="HM" style="align-content: left;">
     <!-- Close Menu -->

@@ -13,14 +13,6 @@ h2{
     font-size: 30px;
 }
 
-/* #addSymbol{
-    position: relative;
-    right: 90px;
-    bottom: 15px;
-    color: black;
-    font-size: 50px;
-} */
-
 #hamburgerMenu{
   color: white;
   font-size: 45px;
@@ -83,15 +75,13 @@ h2{
   font-size: 60px;
 }
 
-
-
 .ProfilePic{
   display: inline-block;
   margin: 0% 0% 0% 0%;
 
 
 }
-.ChildName{
+.DriverName{
   display: inline-block;
   margin: 0% 1% 0% 1%;
 
@@ -101,30 +91,57 @@ h2{
 
 }
 
-.ChildSchool{
+.PickUpChild{
   display: inline-block;
   margin: 0% 1% 0% 1%;
   
 
   font-family: 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: 25px;
 }
 
+.PickUpDays{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
 
 
-.AddChild{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.DriverOneBTNS{
+  margin-top: 1%;
+  margin-left:1%;
+}
+
+.ContactBTN{
+  padding: 0.5% 1% 0.5% 1%;
+
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.RemoveBTN{
+  padding: 0.5% 1% 0.5% 1%;
+  
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.AddDrivers{
   font-size:25px;
   padding: 0.5%;
   border-style: solid;
   border-radius: 50px;
 }
 
-.AddChild:hover{
+.AddDrivers:hover{
   color:white;
   padding: 0.5%;
 
   border-style: solid;
   border-radius: 50px;
 }
-
 
