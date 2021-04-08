@@ -11,7 +11,7 @@
 
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="RydeMyKids.js"></script>
+    <script type="text/javascript" src="AddChild.js"></script>
     
 </head>
 <body>
@@ -19,8 +19,21 @@
 
     <a href="MyKids.html" id="backButton">&#8592</a>
 
+    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+    <p><label for="file" style="cursor: pointer; text-decoration: underline;">Upload Profile Picture</label></p>
+    <p><img id="output" width="60" height="60"/></p>
+
+    <script>
+        var loadFile = function(event) {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+    </script>
+    
+
+
     <div class="forms">
-        <label for="childForm">Child Info:</label>
+        <label for="childForm" id="topFormLabel">Child Info:</label>
         <form id ="childForm">
             <div class="form-group row">
                 <label for="nameLabel">Name:*</label>
@@ -40,32 +53,24 @@
             </div>
         </form>
         
-        <label class= "EmergencyText" for="emergencyForm">Emergency Contact Info:</label>
+        <label class= "EmergencyText" for="emergencyForm" id="emergencyFormLabel">Emergency Contact Info:</label>
         <form id ="emergencyForm">
             <div class="form-group row">
                 <label for="nameLabel">Name:</label>
-                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                <input class="form-control" id="inputField" type="text">
             </div>
             <div class="form-group row">
                 <label for="addressLabel">Home Address:</label>
-                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                <input class="form-control" id="inputField" type="text">
             </div>
             <div class="form-group row">
                 <label for="numberLabel">Phone Number:</label>
-                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                <input class="form-control" id="inputField" type="text">
             </div>
             <br>
-            <label class="AddChild" id="ClickToAddChild" onclick="submitChild()">+ Add Child</label>
-
         </form>
+        <label class="AddChild" id="ClickToAddChild" onclick="submitChild()">+ Add Child</label>
     </div>
-    <button type="button" class="btn btn-light">Submit</button>
-    
-
-      
-
-      
-
 
 </body>
 </html>

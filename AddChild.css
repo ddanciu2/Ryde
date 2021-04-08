@@ -21,15 +21,22 @@ h2{
   margin: 0 auto;
   padding: 10px 0;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .forms input{
-    margin-top:10%;
+    margin-top:3%;
 }
 
 .forms .EmergencyText{
     margin-top:35%;
+}
+
+#topFormLabel {
+    font-weight: bold;
+}
+
+#emergencyFormLabel {
+    font-weight: bold;
 }
 
 #topForm {
@@ -52,7 +59,7 @@ h2{
     text-decoration: none;
 }
 
-/* When you mouse over the navigation links, change their color */
+/* When you mouse over the back button, change its color */
 #backButton:hover {
     color: silver;
 }
@@ -65,6 +72,7 @@ h2{
 
 
 .AddChild{
+    margin-top: 15%;
     font-size:25px;
     padding: 1.5%;
     border-style: solid;
