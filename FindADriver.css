@@ -27,4 +27,76 @@ h2{
 #backButton:hover {
     color: silver;
 }
-  
+
+.DriverInfoInput{
+    padding:2%;
+}
+
+.addChild{
+    font-size: 25px;
+    padding: 0.25%;
+}
+
+.child{
+    padding: 0.25%;
+}
+
+.destination{
+    font-size: 25px;
+    padding: 0.25%;
+}
+
+.dest{
+    padding: 0.25%;
+}
+
+.pickupTime{
+    font-size: 25px;
+    padding: 0.25%;
+}
+
+.pickup{
+    padding: 0.1%;
+}
+
+.AMPM{
+    padding: 0.1%;
+}
+
+.dropoffTime{
+    font-size: 25px;
+    padding: 0.25%;
+}
+
+.dropoff{
+    padding: 0.1%;
+
+}
+
+.AMPM2{
+    padding: 0.1%;
+
+}
+
+.SelectDay{
+    font-size: 25px;
+}
+
+.days{
+    font-size: 17px;
+}
+
+.addDriverLB{
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.addDriverLB:hover{
+
+  color:white;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}

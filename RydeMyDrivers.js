@@ -9,3 +9,11 @@ function closeMenu() {
   document.getElementById("hamburgerMenu").style.zIndex = 1;
   document.getElementById("HMLayout").style.width = "0%";
 }
+
+function addDriver(){
+  
+}
+
+function submitDriver(){
+  window.location.href= "MyDrivers.html";
+}

@@ -74,3 +74,74 @@ h2{
   left: 0.9%;
   font-size: 60px;
 }
+
+.ProfilePic{
+  display: inline-block;
+  margin: 0% 0% 0% 0%;
+
+
+}
+.DriverName{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 55px;
+
+}
+
+.PickUpChild{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+  
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.PickUpDays{
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
+
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.DriverOneBTNS{
+  margin-top: 1%;
+  margin-left:1%;
+}
+
+.ContactBTN{
+  padding: 0.5% 1% 0.5% 1%;
+
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.RemoveBTN{
+  padding: 0.5% 1% 0.5% 1%;
+  
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.AddDrivers{
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.AddDrivers:hover{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
+

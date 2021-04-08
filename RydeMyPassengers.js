@@ -10,6 +10,6 @@ function openMenu() {
     document.getElementById("HMLayout").style.width = "0%";
   }
 
-  function AddPassenger(){
+function AddDrivers(){
     
-  }
+}
