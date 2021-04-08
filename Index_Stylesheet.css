@@ -308,7 +308,7 @@ body{
 
 .WeekDates li {
   display: inline-block;
-  width: 13.6%;
+  width: 12.7%;
   color: black;
   text-align: center;
 }
@@ -331,7 +331,7 @@ body{
 .SingleWeekDays li {
   list-style-type: none;
   display: inline-block;
-  width: 13.5%;
+  width: 12.5%;
   text-align: center;
   font-size:25px;
   margin-top: 0%;
