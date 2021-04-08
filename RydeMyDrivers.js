@@ -10,10 +10,6 @@ function closeMenu() {
   document.getElementById("HMLayout").style.width = "0%";
 }
 
-function addDriver(){
-  
-}
-
 function submitDriver(){
   window.location.href= "MyDrivers.html";
 }

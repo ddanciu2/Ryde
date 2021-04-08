@@ -68,3 +68,122 @@ h1{
   left: 0.9%;
   font-size: 60px;
 }
+
+
+.AccountSettings label{
+  font-size: 55px;
+  padding: 0.25%;
+
+}
+
+.AccountSettings input{
+  font-size: 20px;
+  padding:0.3%;
+  margin-bottom: 0.75%;
+}
+
+.AccountSettings select{
+  font-size: 20px;
+  padding:0.3%;
+}
+/* .UserFullName{
+  font-size: 45px;
+  padding: 0.25%;
+  margin: 2.5% .5% 2.5% 1.5%;
+}
+
+.EnterName{
+  font-size: 20px;
+  padding:0.3%;
+}
+
+.UserAddress{
+  font-size: 35px;
+  padding: 0.25%;
+}
+
+.EnterAddress{
+  font-size: 20px;
+  padding:0.3%;
+}
+
+
+.UserVehicle{
+  font-size: 45px;
+  padding: 0.25%;
+
+}
+
+.EnterVehicle{
+  font-size: 20px;
+  padding:0.3%;
+}
+
+.UserAddress{
+  font-size: 25px;
+  padding: 0.25%;
+}
+
+.EnterAddress{
+  padding:0.1%;
+}
+
+.UserPhoneNum{
+  font-size: 25px;
+  padding: 0.25%;
+}
+
+.EnterPhoneNum{
+  padding:0.1%;
+}
+
+.UserAddress{
+  font-size: 25px;
+  padding: 0.25%;
+}
+
+.EnterAddress{
+  padding:0.1%;
+}
+
+.UserEmail{
+  font-size: 25px;
+  padding: 0.25%;
+}
+
+.EnterEmail{
+  padding:0.1%;
+}
+
+.UserSearchDistance{
+  font-size: 25px;
+  padding: 0.25%;
+}
+
+.EnterSearchDistance{
+  padding:0.1%;
+} */
+
+.AccountSettings .SaveBTN{
+  padding:0.5%;
+  font-size: 35px;
+  margin:0.75% 0.25% 0.25% 0.25%;
+  background-color: white;
+
+}
+
+.AccountSettings .SignOutBTN{
+  padding:0.5%;
+  font-size: 35px;
+  margin-top:3%;
+  margin-right: 15%;
+  background-color: white;
+}
+
+.AccountSettings .DeleteBTN{
+  padding:0.5%;
+  font-size: 35px;
+  margin-top:3%;
+  margin-left: 15%;
+  background-color: white;
+}

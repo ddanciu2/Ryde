@@ -3,6 +3,13 @@ body{
     text-align: center;
 }
 
+h1 .locationText{
+    margin-top:0%;
+    margin-bottom: 5%;
+    font-size: 70px;
+    text-align: center;
+}
+
 #hamburgerMenu{
     color: white;
     font-size: 45px;
