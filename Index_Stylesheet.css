@@ -30,7 +30,7 @@ body{
     background-color: #1b2b36; /* Black fallback color */
     /* background-color: rgba(0,0,0, 0.9);  */
     overflow-x: hidden; 
-    /* transition: 0.5s; transition */
+    transition: 0.5s; /*transition*/
   }
   
   /* Position the content inside the overlay */
@@ -49,7 +49,7 @@ body{
     font-size: 80px;
     color: white;
     display: block; /* Display block instead of inline */
-    /* transition: 0.3s; Transition effects on hover (color) */
+     transition: 0.3s; /*Transition effects on hover (color) */
   }
   
   /* When you mouse over the navigation links, change their color */
