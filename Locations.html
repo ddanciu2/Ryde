@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryde - Locations</title>
+    <title>Ryde</title>
     <!-- CSS style sheets -->
     <link href="Locations_Stylesheet.css" type="text/css" rel="stylesheet">
 
@@ -40,7 +40,12 @@
 
 <body>
     
-  <h1>Location</h1>
+  <h1>Locations</h1>
+
+  <label for="kidsMenu">Select a child:</label>
+  <select name="kids" id="kidsMenu">
+    <option value="David">David</option>
+  </select>
 
   <!--The div element for the map -->
     <div id="map" style="margin-left: auto; margin-right: auto;">
@@ -70,6 +75,8 @@
 
   <!-- Open Menu -->
   <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
+
+  
 
 </body>
 </html>
