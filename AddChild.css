@@ -1,0 +1,51 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#topForm {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#emergencyForm {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#backButton{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 1.7%;
+    left: 1.7%;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+/* When you mouse over the navigation links, change their color */
+#backButton:hover {
+    color: silver;
+}
+  

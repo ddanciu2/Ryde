@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryde</title>
+    <!-- CSS style sheets -->
+    <link href="AddChild.css" type="text/css" rel="stylesheet">
+    
+
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="AddChild.js"></script>
+    
+</head>
+<body>
+    <h1>Add Child</h1>
+
+    <a href="MyKids.html" id="backButton">&#8592</a>
+
+    <div class="forms">
+        <label for="childForm">Child Info:</label>
+        <form id ="topForm">
+            <div class="form-group row">
+                <label for="nameLabel">Name:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            <div class="form-group row">
+                <label for="schoolLabel">School Address:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            <div class="form-group row">
+                <label for="addressLabel">Home Address:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            <div class="form-group row">
+                <label for="numberLabel">Phone Number:*</label>
+                <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+            </div>
+            </form>
+        
+            <label for="emergencyForm">Emergency Contact Info:</label>
+            <form id ="emergencyForm">
+                <div class="form-group row">
+                    <label for="nameLabel">Name:</label>
+                    <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                </div>
+                <div class="form-group row">
+                    <label for="addressLabel">Home Address:</label>
+                    <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                </div>
+                <div class="form-group row">
+                    <label for="numberLabel">Phone Number:</label>
+                    <input class="form-control" id="inputField" type="text" onkeyup= "checkInput()">
+                </div>
+                </form>
+    </div>
+    
+
+      
+
+      
+
+
+</body>
+</html>
