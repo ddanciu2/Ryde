@@ -1,6 +1,7 @@
 body{
     background-color: skyblue;
     text-align: center;
+    font-family: Arial;
 }
 
 h1{
@@ -29,8 +30,6 @@ h1{
 .PickUpDays{
     margin: 0% 1% 0% 1%;
 
-
-    font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
   
 }
@@ -39,8 +38,6 @@ h1{
   display: inline-block;
   margin: 0% 1% 0% 1%;
 
-
-  font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
 
 }
@@ -48,7 +45,7 @@ h1{
 .RemoveBTN{
   display: inline-block;
   margin: 0% 1% 0% 1%;
-  font-family: 'Times New Roman', Times, serif;
+
   font-size: 25px;
   background-color: white;
 }

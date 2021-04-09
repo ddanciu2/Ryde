@@ -11,5 +11,5 @@ function openMenu() {
   }
   
   function submitAvailability(){
-    window.location.href= "MyAvailabilities.html";
+    window.location.href= "MyAvailabilitiesFilled.html";
   }

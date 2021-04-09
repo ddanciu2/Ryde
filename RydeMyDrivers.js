@@ -11,5 +11,5 @@ function closeMenu() {
 }
 
 function submitDriver(){
-  window.location.href= "MyDrivers.html";
+  window.location.href= "MyDriversFilled.html";
 }

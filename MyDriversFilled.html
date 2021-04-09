@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryde</title>
-
+    
     <!-- CSS style sheets -->
-    <link href="MyPassengers_Stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="MyDrivers.css" type="text/css" rel="stylesheet">
 
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="RydeMyPassengers.js"></script>
+    <script type="text/javascript" src="RydeMyDrivers.js"></script>
+    
 </head>
 <body>
     
@@ -32,23 +33,27 @@
       
       <!-- Open Menu -->
       <label class="openHM" id="hamburgerMenu" onclick="openMenu()"> &#9776</label>
+
+      <!-- <h1>My Drivers</h1>
+
+      <a href="FindADriver.html">+ Find a Driver</a> -->
+
+      <h1>My Drivers</h1>
+
+      <label class="AddDrivers"id="ClickToAddDrivers" onclick="location.href='FindADriver.html'">+ Add Driver</label>
+      <br><br><br>
       
-      <h1>My Passengers</h1>
-      
-      <div class="DriverOne">
-        <img class="ProfilePic" src="defaultPFP.png" height="80" width="80" alt="Profile Pic" style="border-radius: 30px;">
-        <label class="DriverName"> Peter</label>
-      </div>
+        <div class="DriverOne" id="d1">
+          <img class="ProfilePic" src="defaultPFP.png" height="80" width="80" alt="Profile Pic" style="border-radius: 30px;">
+          <label class="DriverName"> David</label>
+          <label class="PickUpChild">Pick Up:Matt</label>
+        </div>
 
-      <div class="DriverOneBTNS">
-        <button class="ContactBTN">Contact Info</button>
-        <label class="PickUpDays">Days:M-F 7AM</label>
-      </div>
-
-      <form class="ViewAvailabilties">
-        <label class="ViewAvailabilties" id="Availabilties" onclick="location.href='MyAvailabilities.html'">View My Availabilities</label>
-      </form>
-
+        <div class="DriverOneBTNS" id="d1BTN">
+          <button class="ContactBTN">Contact</button>
+          <button class="RemoveBTN">Remove</button>
+          <label class="PickUpDays">Days:M-F 7AM</label>
+        </div>
 
 </body>
 </html>

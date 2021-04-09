@@ -1,6 +1,7 @@
 body{
     background-color: skyblue;
     text-align: center;
+    font-family: Arial;
 }
 
 #hamburgerMenu{
@@ -39,6 +40,7 @@ body{
     top: 5%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
+    font-family: Arial;
     margin-top: 2%; /* 30px top margin to avoid conflict with the close button on smaller screens */
   }
   
@@ -87,10 +89,6 @@ body{
 
 ul{
   list-style-type: none;
-}
-
-body{
-  font-family: 'Times New Roman', Times, serif;
 }
   
 /* CALENDER STYLING BELOW */

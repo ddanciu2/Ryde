@@ -1,6 +1,7 @@
 body{
     background-color: skyblue;
     text-align: center;
+    font-family: Arial;
 }
 
 h1{
@@ -62,7 +63,7 @@ h2{
   font-size: 80px;
   color: white;
   display: block; /* Display block instead of inline */
-   transition: 0.3s; /*Transition effects on hover (color) */
+  transition: 0.3s; /*Transition effects on hover (color) */
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -79,7 +80,6 @@ h2{
 }
 
 
-
 .ProfilePic{
   display: inline-block;
   margin: 0% 0% 0% 0%;
@@ -89,19 +89,12 @@ h2{
 .ChildName{
   display: inline-block;
   margin: 0% 1% 0% 1%;
-
-
-  font-family: 'Times New Roman', Times, serif;
   font-size: 55px;
-
 }
 
 .ChildSchool{
   display: inline-block;
   margin: 0% 1% 0% 1%;
-  
-
-  font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
 }
 

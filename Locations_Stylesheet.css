@@ -1,6 +1,7 @@
 body{
     background-color: skyblue;
     text-align: center;
+    font-family: Arial;
 }
 
 h1{
@@ -82,4 +83,18 @@ h1{
     font-size: 25px;
     color: black;
     background-color: white;
+}
+
+.dropdownLabel {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dropdownMenu {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#kidsMenu {
+    width: 150px;
 }
