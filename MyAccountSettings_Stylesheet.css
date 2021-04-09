@@ -20,12 +20,6 @@ h1{
 
 }
 
-.image {
-  border-radius: 30px;
-  border-style: solid;
-  border-width: 1px;
-}
-
 /* When you mouse over the navigation links, change their color */
 #hamburgerMenu:hover {
   color: silver;
