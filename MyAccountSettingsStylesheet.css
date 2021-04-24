@@ -102,6 +102,59 @@ h1{
   color:silver;
 }
 
+.SaveLabel{
+  /* position:relative; */
+  font-size: 25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+  /* padding-top: ; */
+}
+
+.SaveLabel:hover{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.SignOutLabel{
+  /* position:relative; */
+  font-size: 25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+  margin-right: 15%;
+  /* padding-top: ; */
+}
+
+.SignOutLabel:hover{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.DeleteLabel{
+  /* position:relative; */
+  font-size: 25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+  margin-left: 15%;
+  /* padding-top: ; */
+}
+
+.DeleteLabel:hover{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
+
 .AccountSettings .SignOutBTN{
   padding:0.5%;
   font-size: 35px;
