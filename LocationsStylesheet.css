@@ -77,12 +77,21 @@ h1{
     font-size: 35px;
 }
 
-.PoliceBTN{
-    margin-top: 1.0%;
-    padding:0.7% 0.7% 0.7% 0.7%;
+.PoliceLabel{
+    /* position:relative; */
     font-size: 25px;
-    color: black;
-    background-color: white;
+    padding: 0.5%;
+    border-style: solid;
+    border-radius: 50px;
+    /* padding-top: ; */
+}
+
+.PoliceLabel:hover{
+    color:white;
+    padding: 0.5%;
+
+    border-style: solid;
+    border-radius: 50px;
 }
 
 .dropdownLabel {

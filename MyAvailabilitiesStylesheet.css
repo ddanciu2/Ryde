@@ -50,6 +50,10 @@ h1{
   background-color: white;
 }
 
+.RemoveBTN:hover{
+  color:silver;
+}
+
 .Availabilities{
     margin:3%;
 }

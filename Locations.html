@@ -15,9 +15,10 @@
     <style type="text/css">
       /* Set the size of the div element that contains the map */
       #map {
-        height: 400px;
+        /* position: relative; */
+        height: 550px;
         /* The height is 400 pixels */
-        width: 50%;
+        width: 85%;
         /* The width is the width of the web page */
       }
     </style>
@@ -57,9 +58,12 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx5GUJrKSqZruj1SvJeMhq_8I7LXKy7SQ&callback=initMap">
     </script>
   </div>
+  <br>
   <div>
-    <input class="PoliceBTN" type="button" onclick="javascript:alert('Police have been notified');" value="Notify the Police" style="margin-left: auto; margin-right: auto;"> 
+    <label class="PoliceLabel" id="ClickToNotifyPolice" onclick="javascript:alert('Police have been notified');">Notify the Police</label> <br>
+    <!-- <input class="PoliceBTN" type="button" onclick="javascript:alert('Police have been notified');" value="Notify the Police" style="margin-left: auto; margin-right: auto;">  -->
   </div>
+  <br>
   
   <div id="HMLayout" class="HM">
     <!-- Close Menu -->

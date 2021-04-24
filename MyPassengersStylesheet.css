@@ -128,10 +128,18 @@ h2{
     font-size: 25px;
 }
 
+.ContactBTN:hover{
+  color:silver;
+}
+
 .RemoveBTN{
   padding: 0.5% 1% 0.5% 1%;
   
   font-size: 25px;
+}
+
+.RemoveBTN:hover{
+  color: silver;
 }
 
 .ViewAvailabilties{
