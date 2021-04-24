@@ -116,6 +116,23 @@ h2{
   border-radius: 50px;
 }
 
+.RemoveChild{
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.RemoveChild:hover{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
+
+
+
 
 #enterChildInfo{
   position: absolute;
