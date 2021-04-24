@@ -35,8 +35,94 @@
       
   <h1>My Kids</h1>
 
-  <label class="AddChild" id="ClickToAddChild" onclick="location.href='AddChild.html'">+ Add Child</label>
-  <br><br><br>
+  <!-- <label class="AddChild" id="ClickToAddChild" onclick="location.href='AddChild.html'">+ Add Child</label> -->
+  <label class="AddChild" id="ClickToAddChild" onclick="submitChild()">+ Add Child</label>
+
+
+  
+
+  <div class="Child0" id="Child0" >
+    <img class="ProfilePic" src="defaultPFP.png" height="80" width="80" alt="Profile Pic" style="border-radius: 30px;">
+    <label class="ChildName" id="CN">Matt</label>
+    <label class="ChildSchool">School: XYZ High School</label>
+  </div>
+
+
+  
+
+  <div class="childInfo" id="enterChildInfo">
+
+    <a onclick="backInfo()" id="backButton">&#8592</a>
+
+
+    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+    <p><label for="file" style="cursor: pointer; text-decoration: underline;">Upload Profile Picture</label></p>
+    <p><img class="outputIMG" src="add photo icon.png" id="output" height="100" width="100" style="border-radius: 30px; border-style: solid; border-width: 1px;"/></p>
+
+    <script>
+        var loadFile = function(event) {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+            image.classList.add("image");
+        };
+    </script>
+
+
+    <div class="forms">
+      <label for="childForm" id="topFormLabel">Child Info:</label>
+      <form id ="childForm">
+          <div class="form-group row">
+              <label for="nameLabel">Name:*</label>
+              <input class="form-control" id="inputField" type="text" value="Matt Smith">
+          </div>
+          <div class="form-group row">
+              <label for="schoolLabel">School Address:*</label>
+              <input class="form-control" id="inputField" type="text" value="1200 W Harrison St">
+          </div>
+          <div class="form-group row">
+              <label for="addressLabel">Home Address:*</label>
+              <input class="form-control" id="inputField" type="text" value="1732 N Milwaukee Ave">
+          </div>
+          <div class="form-group row">
+              <label for="numberLabel">Phone Number:*</label>
+              <input class="form-control" id="inputField" type="text" value="098-765-4321">
+          </div>
+      </form>
+      
+      <br>
+      <label class= "EmergencyText" for="emergencyForm" id="emergencyFormLabel">Emergency Contact Info:</label>
+      <form id ="emergencyForm">
+          <div class="form-group row">
+              <label for="nameLabel">Name:</label>
+              <input class="form-control" id="inputField" type="text" value="John Smith">
+          </div>
+          <div class="form-group row">
+              <label for="addressLabel">Home Address:</label>
+              <input class="form-control" id="inputField" type="text" value="1732 N Milwaukee Ave">
+          </div>
+          <div class="form-group row">
+              <label for="numberLabel">Phone Number:</label>
+              <input class="form-control" id="inputField" type="text" value="123-456-7890">
+          </div>
+          <br>
+      </form>
+      <label class="AddChild" id="ClickToAddChild" onclick="submitChild1()">+ Add Child</label>
+  </div>
+
+  </div>
+<!-- <script>
+$(document.getElementById)
+
+$(document).ready(function () {
+  $(document).on('click', "#Child0", function (evt) {
+    window.location.href = "someOtherFile.html";
+
+  });
+});
+
+
+</script> -->
+  
 
 
 </body>
