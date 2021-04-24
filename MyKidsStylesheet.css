@@ -204,7 +204,7 @@ font-size: 20px;
 
 /* When you mouse over the back button, change its color */
 #backButton:hover {
-  color: silver;
+  color: black;
 }
 
 .SubmitChild{
