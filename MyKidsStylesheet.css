@@ -120,9 +120,6 @@ h2{
 #enterChildInfo{
   position: absolute;
   display: none;
-  border-style: solid;
-  border-radius: 1px;
-  border-color: orange;
   left:20%;
   top:0px;
   padding-left:15%;
@@ -193,7 +190,7 @@ font-size: 20px;
 }
 
 #backButton{
-  color: white;
+  color: black;
   font-size: 45px;
   position: absolute;
   top: 1.7%;
@@ -204,7 +201,7 @@ font-size: 20px;
 
 /* When you mouse over the back button, change its color */
 #backButton:hover {
-  color: black;
+  color: white;
 }
 
 .SubmitChild{
