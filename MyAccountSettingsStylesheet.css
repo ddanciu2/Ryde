@@ -98,6 +98,10 @@ h1{
   background-color: white;
 }
 
+.AccountSettings .SaveBTN:hover{
+  color:silver;
+}
+
 .AccountSettings .SignOutBTN{
   padding:0.5%;
   font-size: 35px;
@@ -106,10 +110,18 @@ h1{
   background-color: white;
 }
 
+.AccountSettings .SignOutBTN:hover{
+  color:silver
+}
+
 .AccountSettings .DeleteBTN{
   padding:0.5%;
   font-size: 35px;
   margin-top:3%;
   margin-left: 15%;
   background-color: white;
+}
+
+.AccountSettings .DeleteBTN:hover{
+  color:silver;
 }
