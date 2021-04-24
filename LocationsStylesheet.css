@@ -85,6 +85,10 @@ h1{
     background-color: white;
 }
 
+.PoliceBTN:hover {
+    color: silver;
+}
+
 .dropdownLabel {
     font-size: 25px;
     font-weight: bold;
