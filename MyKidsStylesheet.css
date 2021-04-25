@@ -117,7 +117,7 @@ h2{
 }
 
 .RemoveChild{
-  font-size:25px;
+  font-size:15px;
   padding: 0.5%;
   border-style: solid;
   border-radius: 50px;
@@ -131,6 +131,20 @@ h2{
   border-radius: 50px;
 }
 
+.EditChild{
+  font-size:15px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.EditChild:hover{
+  color:white;
+  padding: 0.5%;
+
+  border-style: solid;
+  border-radius: 50px;
+}
 
 
 
