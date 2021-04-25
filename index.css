@@ -454,65 +454,48 @@ ul{
 
 .BtnDay{
     position: relative;
-
-
-    border-color: rgb(0, 0, 0);
+    font-size:35px;
+    padding: 0.8% 3.5% 0.8% 3.5%;
+    border-style: solid;
+    border-radius: 50px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    font-size: 35px;
-    
-    border-radius: 5px;
-    padding: 0.8% 3.5% 0.8% 3.5%;
     margin: 1% 1% 0% 0%;
-
-    /* text-shadow: -1px 1px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-   -1px -1px 0 #000; */
 }
 
 .BtnDay:hover{
-    border-color: black;
     color: white;
     background-color: black;
 }
 
 .BtnWeek{
-    position: relative;
-
-
-    border-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    font-size: 35px;
-    
-    border-radius: 5px;
-    padding: 0.8% 3.5% 0.8% 3.5%;
-    margin: 1% 1% 0% 0%;
+  position: relative;
+  font-size:35px;
+  padding: 0.8% 3.5% 0.8% 3.5%;
+  border-style: solid;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 1% 1% 0% 0%;
 }
 
 .BtnWeek:hover{
-    border-color: black;
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 .BtnMonth{
-    position: relative;
-
-
-    border-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    font-size: 35px;
-    
-    border-radius: 5px;
-    padding: 0.8% 3.5% 0.8% 3.5%;
-    margin: 1% 1% 0% 0%;
+  position: relative;
+  font-size:35px;
+  padding: 0.8% 3.5% 0.8% 3.5%;
+  border-style: solid;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 1% 1% 0% 0%;
 }
 
 .BtnMonth:hover{
-    border-color: black;
     color: white;
     background-color: black;
 }

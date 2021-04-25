@@ -106,12 +106,14 @@ h2{
   padding: 0.5%;
   border-style: solid;
   border-radius: 50px;
+  color: black;
+  background-color: white;
 }
 
 .AddChild:hover{
   color:white;
+  background-color: black;
   padding: 0.5%;
-
   border-style: solid;
   border-radius: 50px;
 }
@@ -121,17 +123,21 @@ h2{
   padding: 0.5%;
   border-style: solid;
   border-radius: 50px;
+  color: black;
+  background-color: white;
 }
 
 .RemoveChild:hover{
   color:white;
+  background-color: black;
   padding: 0.5%;
-
   border-style: solid;
   border-radius: 50px;
 }
 
 .EditChild{
+  color: black;
+  background-color: white;
   font-size:15px;
   padding: 0.5%;
   border-style: solid;
@@ -140,8 +146,8 @@ h2{
 
 .EditChild:hover{
   color:white;
+  background-color: black;
   padding: 0.5%;
-
   border-style: solid;
   border-radius: 50px;
 }
@@ -204,6 +210,7 @@ font-size: 20px;
 
 #topFormLabel {
   font-weight: bold;
+  font-size: 25px;
 }
 
 #emergencyFormLabel {

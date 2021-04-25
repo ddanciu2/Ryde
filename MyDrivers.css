@@ -24,7 +24,7 @@ h1{
 
 /* When you mouse over the navigation links, change their color */
 #hamburgerMenu:hover {
-  color: silver;
+  color:silver; 
 }
 
 /* The Overlay (background) */
@@ -100,15 +100,29 @@ h1{
 
 
 .ContactBTN{
+  color: black;
+  background-color: white;
   padding: 0.5% 1% 0.5% 1%;
   margin:0.5%;
+  font-size: 25px;
 
+  color: black;
   background-color: white;
   font-size: 25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }
 
 .ContactBTN:hover{
-  color: silver;
+  color:white;
+  background-color: black;
+
+  color:white;
+  background-color: black;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }
 
 .RemoveBTN{
@@ -117,10 +131,21 @@ h1{
 
   background-color: white;
   font-size: 25px;
+
+  color: black;
+  background-color: white;
+  font-size: 25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }
 
 .RemoveBTN:hover{
-  color: silver;
+  color:white;
+  background-color: black;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }
 
 .PickUpDays{
@@ -136,12 +161,14 @@ h1{
   padding: 0.5%;
   border-style: solid;
   border-radius: 50px;
+  color: black;
+  background-color: white;  
 }
 
 .AddDrivers:hover{
   color:white;
+  background-color: black;
   padding: 0.5%;
-
   border-style: solid;
   border-radius: 50px;
 }
@@ -262,6 +289,8 @@ h1{
 }
 
 .addDriverLB{
+color: black;
+background-color: white;
 font-size:25px;
 padding: 0.5%;
 border-style: solid;
@@ -269,8 +298,8 @@ border-radius: 50px;
 }
 
 .addDriverLB:hover{
-
 color:white;
+background-color: black;
 padding: 0.5%;
 border-style: solid;
 border-radius: 50px;

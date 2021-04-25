@@ -48,9 +48,10 @@
         </div>
 
         <div class="DriverOneBTNS" id="d1BTN">
-          <button class="ContactBTN">Contact</button>
-          <button class="RemoveBTN">Remove</button>
+          <label class="ContactBTN">Contact</label>
+          <label class="RemoveBTN">Remove</label>
           <label class="PickUpDays">Days:M-F 7AM</label>
+          <br><br><br>
         </div>
 
       </div>
@@ -67,8 +68,13 @@
             </select><br>
 
             <br><br>
+            <label class="destination" for="desination">Pick-Up Address:</label>
+            <br>
+            <input class="dest"type="text" id="d" name="d" value="452 Bernard Ave"><br>
+            <br><br>
 
-            <label class="destination" for="desination">Destination:</label>
+
+            <label class="destination" for="desination">Destination Address:</label>
             <input class="dest"type="text" id="d" name="d" value="1732 N Milwaukee Ave"><br>
             <br><br>
 
@@ -108,40 +114,7 @@
 
             <br><br>
 
-            <label class="dropoffTime" for="dropoff">Drop Off Time:</label>
-
-            <select class="dropoff" name="d" id="d">
-                <option value="time2">1:00</option>
-                <option value="time2">1:30</option>
-                <option value="time2">2:00</option>
-                <option value="time2">2:30</option>
-                <option value="time2">3:00</option>
-                <option value="time2">3:30</option>
-                <option value="time2">4:00</option>
-                <option value="time2">4:30</option>
-                <option value="time2">5:00</option>
-                <option value="time2">5:30</option>
-                <option value="time2">6:00</option>
-                <option value="time2">6:30</option>
-                <option value="time2">7:00</option>
-                <option value="time2">7:30</option>
-                <option value="time2">8:00</option>
-                <option value="time2">8:30</option>
-                <option value="time2">9:00</option>
-                <option value="time2">9:30</option>
-                <option value="time2">10:00</option>
-                <option value="time2">10:30</option>
-                <option value="time2">11:00</option>
-                <option value="time2">11:30</option>
-                <option value="time2">12:00</option>
-                <option value="time2">12:30</option>        
-            </select>
-
-            <select class="AMPM2" name="ampm2" id="ampm2">
-                <option value="am">am</option>
-                <option value="pm">pm</option>
-            </select><br>
-            <br><br>
+            
 
             <label class="SelectDay" for="days">Days:</label><br>
             <div class="days">

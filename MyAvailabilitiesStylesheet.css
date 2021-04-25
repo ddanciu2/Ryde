@@ -36,13 +36,20 @@ h1{
 .RemoveBTN{
   display: inline-block;
   margin: 0% 1% 0% 1%;
-
-  font-size: 25px;
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+  color: black;
   background-color: white;
 }
 
 .RemoveBTN:hover{
-  color:silver;
+  color:white;
+  background-color: black;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }
 
 
@@ -52,13 +59,14 @@ h1{
   font-size:25px;
   border-style: solid;
   border-radius: 50px;
-  
+  color: black;
+  background-color: white;
 }
 
 .ViewAvailabilities:hover{
   color:white;
+  background-color: black;
   padding: 0.5%;
-
   border-style: solid;
   border-radius: 50px;
 }
@@ -148,16 +156,18 @@ h1{
 }
 
 .addDriverLB{
-font-size:25px;
-padding: 0.5%;
-border-style: solid;
-border-radius: 50px;
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
 }
 
 .addDriverLB:hover{
-
-color:white;
-padding: 0.5%;
-border-style: solid;
-border-radius: 50px;
+  color:white;
+  background-color: black;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }

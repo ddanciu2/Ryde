@@ -122,14 +122,20 @@ h2{
 }
 
 .ContactBTN{
-    padding: 0.5% 1% 0.5% 1%;
-
-    background-color: white;
-    font-size: 25px;
+  font-size:25px;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
 }
 
 .ContactBTN:hover{
-  color:silver;
+  color:white;
+  background-color: black;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }
 
 .RemoveBTN{
@@ -150,11 +156,13 @@ h2{
   padding: 0.5%;
   border-style: solid;
   border-radius: 50px;
+  color: black;
+  background-color: white;
 }
 
 .ViewAvailabilties:hover label{
   color:white;
-  
+  background-color: black;  
   padding: 0.5%;
   border-style: solid;
   border-radius: 50px;
