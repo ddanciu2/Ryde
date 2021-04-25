@@ -11,5 +11,27 @@ function openMenu() {
   }
   
   function submitAvailability(){
-    window.location.href= "MyAvailabilitiesFilled.html";
+    document.getElementById("enterAvailableInfo").style.display = "block";
   }
+
+
+  var i = 0;
+
+function duplicateChild(){
+  var original = document.getElementById('Availability' + i);
+  var clone = original.cloneNode(true); // "deep" clone
+  clone.id = "Availability" + ++i; // there can only be one element with an ID
+  original.parentNode.appendChild(clone);
+
+}
+
+function submitAvailability1(){
+  duplicateChild();
+  document.getElementById("enterAvailableInfo").style.display = "none";
+}
+
+function backInfo(){
+  document.getElementById("enterAvailableInfo").style.display = "none";
+
+}
+
