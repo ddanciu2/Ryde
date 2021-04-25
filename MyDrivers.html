@@ -36,8 +36,137 @@
 
       <h1>My Drivers</h1>
 
-      <label class="AddDrivers"id="ClickToAddDrivers" onclick="location.href='FindADriver.html'">+ Add Driver</label>
+      <label class="AddDrivers"id="ClickToAddDrivers" onclick="submitDriver()">+ Add Driver</label>
       <br><br><br>
+
+      <div class="Driver0" id="Driver0">
+
+        <div class="DriverOne" id="d1">
+          <img class="ProfilePic" src="defaultPFP.png" height="80" width="80" alt="Profile Pic" style="border-radius: 30px;">
+          <label class="DriverName"> David</label>
+          <label class="PickUpChild">Pick Up:Matt</label>
+        </div>
+
+        <div class="DriverOneBTNS" id="d1BTN">
+          <button class="ContactBTN">Contact</button>
+          <button class="RemoveBTN">Remove</button>
+          <label class="PickUpDays">Days:M-F 7AM</label>
+        </div>
+
+      </div>
+
+      <div class="driverInfo" id="enterDriverInfo">
+
+        <a onclick="backInfo()" id="backButton">&#8592</a>
+    
+        <form class="DriverInfoInput">
+            <label class="addChild" for="child">Child:</label>
+
+            <select class="child" name="c" id="c">
+                <option value="matt">Matt</option>
+            </select><br>
+
+            <br><br>
+
+            <label class="destination" for="desination">Destination:</label>
+            <input class="dest"type="text" id="d" name="d" value="1732 N Milwaukee Ave"><br>
+            <br><br>
+
+            <label class="pickupTime" for="pickup">Pick Up Time:</label>
+
+            <select class="pickup" name="p" id="p">
+                <option value="time">1:00</option>
+                <option value="time">1:30</option>
+                <option value="time">2:00</option>
+                <option value="time">2:30</option>
+                <option value="time">3:00</option>
+                <option value="time">3:30</option>
+                <option value="time">4:00</option>
+                <option value="time">4:30</option>
+                <option value="time">5:00</option>
+                <option value="time">5:30</option>
+                <option value="time">6:00</option>
+                <option value="time">6:30</option>
+                <option value="time">7:00</option>
+                <option value="time">7:30</option>
+                <option value="time">8:00</option>
+                <option value="time">8:30</option>
+                <option value="time">9:00</option>
+                <option value="time">9:30</option>
+                <option value="time">10:00</option>
+                <option value="time">10:30</option>
+                <option value="time">11:00</option>
+                <option value="time">11:30</option>
+                <option value="time">12:00</option>
+                <option value="time">12:30</option>
+            </select>
+
+            <select class="AMPM" name="ampm1" id="ampm1">
+                <option value="am">am</option>
+                <option value="pm">pm</option>
+            </select><br>
+
+            <br><br>
+
+            <label class="dropoffTime" for="dropoff">Drop Off Time:</label>
+
+            <select class="dropoff" name="d" id="d">
+                <option value="time2">1:00</option>
+                <option value="time2">1:30</option>
+                <option value="time2">2:00</option>
+                <option value="time2">2:30</option>
+                <option value="time2">3:00</option>
+                <option value="time2">3:30</option>
+                <option value="time2">4:00</option>
+                <option value="time2">4:30</option>
+                <option value="time2">5:00</option>
+                <option value="time2">5:30</option>
+                <option value="time2">6:00</option>
+                <option value="time2">6:30</option>
+                <option value="time2">7:00</option>
+                <option value="time2">7:30</option>
+                <option value="time2">8:00</option>
+                <option value="time2">8:30</option>
+                <option value="time2">9:00</option>
+                <option value="time2">9:30</option>
+                <option value="time2">10:00</option>
+                <option value="time2">10:30</option>
+                <option value="time2">11:00</option>
+                <option value="time2">11:30</option>
+                <option value="time2">12:00</option>
+                <option value="time2">12:30</option>        
+            </select>
+
+            <select class="AMPM2" name="ampm2" id="ampm2">
+                <option value="am">am</option>
+                <option value="pm">pm</option>
+            </select><br>
+            <br><br>
+
+            <label class="SelectDay" for="days">Days:</label><br>
+            <div class="days">
+                <input type="checkbox" id="mon" name="mon">
+                <label for="mon">Mon</label>
+                <input type="checkbox" id="tues" name="tues">
+                <label for="tues">Tues</label>
+                <input type="checkbox" id="wed" name="wed">
+                <label for="wed">Wed</label>
+                <input type="checkbox" id="thurs" name="thurs">
+                <label for="thurs">Thurs</label>
+                <input type="checkbox" id="fri" name="fri">
+                <label for="wed">Fri</label>
+                <input type="checkbox" id="sat" name="sat">
+                <label for="wed">Sat</label>
+                <input type="checkbox" id="sun" name="sun">
+                <label for="wed">Sun</label>
+            </div>
+            <br>
+            <br><br><br>
+            <label class="addDriverLB" type="submit" value="Submit" onclick="submitDriver1()">+ Add Driver</label>
+            
+        </form>
+    
+      </div>
 
 </body>
 </html>

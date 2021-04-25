@@ -12,9 +12,7 @@ function closeMenu() {
 
 
 function submitChild(){
-
   document.getElementById("enterChildInfo").style.display = "block";
-  // window.location.href= "AddChild.html";
 }
 
 
@@ -33,10 +31,6 @@ function duplicateChild(){
 function submitChild1(){
   duplicateChild();
   document.getElementById("enterChildInfo").style.display = "none";
-  // var child = document.getElementById('Child' + (i));
-  // child.innerHTML;
-  var child = document.getElementById('Child' + i);
-  
   
 }
 

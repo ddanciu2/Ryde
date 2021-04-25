@@ -11,5 +11,29 @@ function closeMenu() {
 }
 
 function submitDriver(){
-  window.location.href= "MyDriversFilled.html";
+  document.getElementById("enterDriverInfo").style.display = "block";
 }
+
+
+
+var i = 0;
+
+function duplicateChild(){
+  var original = document.getElementById('Driver' + i);
+  var clone = original.cloneNode(true); // "deep" clone
+  clone.id = "Driver" + ++i; // there can only be one element with an ID
+  original.parentNode.appendChild(clone);
+
+}
+
+function submitDriver1(){
+  duplicateChild();
+  document.getElementById("enterDriverInfo").style.display = "none";
+}
+
+function backInfo(){
+  document.getElementById("enterDriverInfo").style.display = "none";
+
+}
+
+
