@@ -21,7 +21,7 @@
 
     <!-- Overlay content -->
     <div class="menu-items">
-      <a href="index.html" onclick="closeMenu()">Home</a>
+      <a href="index.html">Home</a>
       <a href="MyKids.html">My Kids</a>
       <a href="Locations.html">Locations</a>
       <a href="MyDrivers.html">My Drivers</a>
@@ -37,16 +37,14 @@
 
 
   <label class="AddChild" id="ClickToAddChild" onclick="submitChild()">+ Add Child</label>
-
-
-  
+ 
 
   <div class="Child0" id="Child0" >
     <img class="ProfilePic" src="defaultPFP.png" height="80" width="80" alt="Profile Pic" style="border-radius: 30px;">
     <label class="ChildName" id="CN">Matt</label>
     <label class="ChildSchool">School: XYZ High School</label>
     <label class="EditChild" id="ClickToEditChild">Edit Child</label>
-    <label class="RemoveChild" id="ClickToRemoveChild" >- Remove Child</label>
+    <label class="RemoveChild" id="ClickToRemoveChild" onclick="removeChild()">Remove Child</label>
   </div>
 
 
@@ -54,12 +52,12 @@
 
   <div class="childInfo" id="enterChildInfo">
 
-    <a onclick="backInfo()" id="backButton">&#8592</a>
+    <a onclick="backInfo()" id="backButton">x</a>
 
 
     <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
-    <p><label for="file" style="cursor: pointer; text-decoration: underline;">Upload Profile Picture</label></p>
     <p><img class="outputIMG" src="defaultPFP.png" id="output" height="100" width="100" style="border-radius: 50px; border-style: solid; border-width: 1px;"/></p>
+    <p><label for="file" style="cursor: pointer; text-decoration: underline;">Upload Profile Picture</label></p>
 
     <script>
         var loadFile = function(event) {
@@ -108,7 +106,7 @@
           </div>
           <br>
       </form>
-      <label class="AddChild" id="ClickToAddChild" onclick="submitChild1()">+ Add Child</label>
+      <label class="AddChild" id="ClickToAddChild" onclick="submitChild1()">Save</label>
     </div>
 
   </div>

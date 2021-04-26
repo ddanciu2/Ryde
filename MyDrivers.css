@@ -48,7 +48,7 @@ h1{
   top: 5%; /* 25% from the top */
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
-  margin-top: 2%; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  margin-top: 3%; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* overlay a tags */
@@ -58,7 +58,7 @@ h1{
   font-size: 80px;
   color: white;
   display: block; /* Display block instead of inline */
-   transition: 0.3s; /*Transition effects on hover (color) */
+  transition: 0.3s; /*Transition effects on hover (color) */
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -195,10 +195,6 @@ h1{
 
 
 /* Find a driver CSS */
-
-
-
-
 body{
   background-color: skyblue;
   text-align: center;
@@ -212,7 +208,7 @@ h1{
 }
 
 #backButton{
-  color: black;
+  color: white;
   font-size: 45px;
   position: absolute;
   top: 1.7%;
@@ -223,7 +219,7 @@ h1{
 
 /* When you mouse over the navigation links, change their color */
 #backButton:hover {
-  color: white;
+  color: black;
 }
 
 .DriverInfoInput{
@@ -289,18 +285,18 @@ h1{
 }
 
 .addDriverLB{
-color: black;
-background-color: white;
-font-size:25px;
-padding: 0.5%;
-border-style: solid;
-border-radius: 50px;
+  color: black;
+  background-color: white;
+  font-size:25px;
+  padding: 1%;
+  border-style: solid;
+  border-radius: 50px;
 }
 
 .addDriverLB:hover{
-color:white;
-background-color: black;
-padding: 0.5%;
-border-style: solid;
-border-radius: 50px;
+  color:white;
+  background-color: black;
+  padding: 0.5%;
+  border-style: solid;
+  border-radius: 50px;
 }

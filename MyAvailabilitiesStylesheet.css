@@ -102,7 +102,7 @@ h1{
 
 
 #backButton{
-  color: black;
+  color: white;
   font-size: 45px;
   position: absolute;
   top: 1.7%;
@@ -157,7 +157,7 @@ h1{
 
 .addDriverLB{
   font-size:25px;
-  padding: 0.5%;
+  padding: 1%;
   border-style: solid;
   border-radius: 50px;
   color: black;
@@ -167,7 +167,7 @@ h1{
 .addDriverLB:hover{
   color:white;
   background-color: black;
-  padding: 0.5%;
+  padding: 1%;
   border-style: solid;
   border-radius: 50px;
 }

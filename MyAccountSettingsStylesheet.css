@@ -46,7 +46,7 @@ h1{
   top: 5%; /* 25% from the top */
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
-  margin-top: 2%; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  margin-top: 3%; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* overlay a tags */
@@ -89,7 +89,6 @@ h1{
   font-size: 20px;
   padding:0.3%;
 }
-
 
 .AccountSettings .SaveBTN{
   padding:0.5%;

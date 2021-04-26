@@ -21,7 +21,7 @@
 
     <!-- Overlay content -->
     <div class="menu-items">
-      <a href="index.html" onclick="closeMenu()">Home</a>
+      <a href="index.html">Home</a>
       <a href="MyKids.html">My Kids</a>
       <a href="Locations.html">Locations</a>
       <a href="MyDrivers.html">My Drivers</a>
@@ -36,9 +36,9 @@
       <h1>My Account Settings</h1>
 
       <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
-      <p><label for="file" style="cursor: pointer; text-decoration: underline;">Upload Profile Picture</label></p>
       <p><img class="outputIMG" src="DABABY.jpg" id="output" height="120" width="120" style="border-radius: 30px; border-style: solid; border-width: 1px;"/></p>
-  
+      <p><label for="file" style="cursor: pointer; text-decoration: underline;">Upload Profile Picture</label></p>
+      
       <script>
           var loadFile = function(event) {
               var image = document.getElementById('output');
