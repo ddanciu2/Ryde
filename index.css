@@ -130,7 +130,8 @@ ul{
   
 .CalenderMonthDisplay .CurrentMonth{
   position: absolute;
-  left:49%;
+  bottom: 77%;
+  left: 49%;
 }
 
 .MonthDisplayWeekdays {
@@ -240,11 +241,13 @@ ul{
 
 .CalenderMonthDisplay .prevMonth {
   float: left;
+  padding-left: 1%;
   padding-top: 0.7%;
 }
 
 .CalenderMonthDisplay .nextMonth {
   float: right;
+  padding-right: 1%;
   padding-top: 0.7%;
 }
 
@@ -283,17 +286,20 @@ ul{
 
 .CalenderWeekDisplay .prevWeek {
   float: left;
+  padding-left: 1%;
   padding-top: 0.7%;
 }
 
 .CalenderWeekDisplay .nextWeek {
   float: right;
+  padding-right: 1%;
   padding-top: 0.7%;
 }
   
 .CalenderWeekDisplay .CurrentMonth{
     position: absolute;
     left:49%;
+    bottom: 77%;
 }
 
 .WeekDates {
@@ -382,16 +388,19 @@ ul{
 
 .CalenderDayDisplay .prevDay {
   float: left;
+  padding-left: 1%;
   padding-top: 0.7%;
 }
 
 .CalenderDayDisplay .nextDay {
   float: right;
+  padding-right: 1%;
   padding-top: 0.7%;
 }
 
 .CalenderDayDisplay .CurrentMonth{
   position: absolute;
+  bottom: 77%;
   left:49%;
 }
 
