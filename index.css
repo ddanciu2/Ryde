@@ -267,6 +267,11 @@ ul{
   color: white;
 }
 
+.MonthDisplayDays .DifferentMonth {
+  padding: 1.3% 2.3% 1.3% 2.3%;
+  color: gray;
+}
+
 /* WEEKLY CSS BELOW */
 
 .CalenderWeekDisplay {
