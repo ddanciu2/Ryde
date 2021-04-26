@@ -113,6 +113,10 @@ ul{
 
     background: #03960f;
     text-align: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
   }
   
 .CalenderMonthDisplay ul {
@@ -141,6 +145,9 @@ ul{
   padding-top: 1%;
   padding-bottom: 1%;
   background-color: silver;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
   
 .MonthDisplayWeekdays li {
@@ -152,12 +159,15 @@ ul{
 }
 
 .MonthDisplayDays {
-  margin-top: -0.9%;
+  margin-top: -1.1%;
   margin-left: 7%;
   margin-right: 7%;
   padding-top: 1%;
   padding-bottom: 1%;
   background: white;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
 }
   
 
@@ -270,6 +280,10 @@ ul{
   /* width: 80%; */
   background: #03960f;
   text-align: center;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .CalenderWeekDisplay ul {
@@ -309,10 +323,12 @@ ul{
   margin-bottom: 0%;
   padding-top: 1%;
   padding-bottom: 1%;
+
   background-color: silver;
-
   font-size: 25px;
-
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .WeekDates li {
@@ -335,6 +351,9 @@ ul{
   padding-top: 1%;
   padding-bottom: 1%;
   background: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 } 
 
 .SingleWeekDays li {
@@ -372,6 +391,10 @@ ul{
 
   background: #03960f;
   text-align: center;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .CalenderDayDisplay ul {
@@ -412,6 +435,9 @@ ul{
   padding-bottom: 1%;
   padding-right: 0.3%;
   background-color: silver;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .DisplaySingleDay li {
@@ -429,7 +455,7 @@ ul{
 }
 
 .SingleDay {
-  margin-top: -0.9%;
+  margin-top: -1.1%;
   margin-left: 7%;
   margin-right: 7%;
   padding-top: 3%;
@@ -437,6 +463,9 @@ ul{
   padding-top: 1%;
   padding-bottom: 1%;
   background: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 } 
 
 .SingleDay li {
