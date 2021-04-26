@@ -23,7 +23,7 @@ h1{
 
 /* When you mouse over the navigation links, change their color */
 #hamburgerMenu:hover {
-    color: silver;
+    color: black;
 }
 
 /* The Overlay (background) */
@@ -62,7 +62,7 @@ h1{
 
 /* When you mouse over the navigation links, change their color */
 .HM a:hover {
-    color: silver;
+    color: black;
 }
 
 /* Position the close button (top right corner) */
